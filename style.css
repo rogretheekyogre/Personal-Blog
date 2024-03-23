@@ -1,14 +1,18 @@
-*{margin:0;
-padding:0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 
 
 }
-html,body{
 
-    height:100%;
+html,
+body {
+
+    height: 100%;
 }
+
 input {
 
 
@@ -24,30 +28,37 @@ textarea {
 
 
 }
-main{
-display: flex; flex-wrap: wrap;
-height: 100vh;
-align-items: center;
-justify-content: center;
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
-.intro{
-flex-basis: 50%;
-display:flex;
-align-items: center;justify-content: center; 
+
+.intro {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
-#circle{
-border-radius: 50%;
-width: 300px;
-background-color: yellow;
-height: 300px;
-border:3px solid black;
-display: flex;
-align-items: center;justify-content: center; 
+
+#circle {
+    border-radius: 50%;
+    width: 300px;
+    background-color: yellow;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.blog{
-flex-basis: 50%;
+
+.blog {
+    flex-basis: 50%;
 
 
 
