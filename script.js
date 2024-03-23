@@ -1,3 +1,3 @@
-location.href = ""›
+location.href = ""
 
 document.querySelector("button") 
