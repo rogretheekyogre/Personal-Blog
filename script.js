@@ -1,3 +1,3 @@
-location.href = "blog.html"
+location.href = ""›
 
 document.querySelector("button") 
