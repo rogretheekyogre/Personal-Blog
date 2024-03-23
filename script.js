@@ -1,3 +1,3 @@
-window.location.href = 
+window.location.href =""
 
 document.querySelector("button") 
