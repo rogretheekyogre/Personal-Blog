@@ -1,3 +1,3 @@
-window.location.href = "./[blogs.html]"
+window.location.href = 
 
 document.querySelector("button") 
