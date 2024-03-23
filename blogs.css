@@ -1,29 +1,51 @@
-*{
+* {
 
-margin:0;
-padding:0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 
 
 }
+
 html,
 
-body{
-height:100%;
+body {
+    height: 100%;
 
 
 }
-input{
 
-padding:5px;
-width:90%
+input {
+
+    padding: 5px;
+    width: 90%
+}
+
+textarea {
+
+    padding: 5px;
+    width: 90%;
+
 
 }
-textarea{
+
+.B2 {
+    padding: 5px;
+    width: 90%;
+}
+
+.B3 {
+    padding: 5px;
+    width: 90%;
+
+}
+
+.B5{
 
 padding:5px;
-width: 90%;
+width:90%;
+
 
 
 }
