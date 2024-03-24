@@ -49,3 +49,16 @@ width:90%;
 
 
 }
+
+body{
+    padding:25px;
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+
+background-color: black;
+color: white;
+
+
+}
