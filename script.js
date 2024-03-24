@@ -1,19 +1,31 @@
-window.location.href =""
-
-document.querySelector("button") 
-
 
 function myFunction2() {
-var element = document.body;
-element.classList.toggle("dark-mode")
+    var element = document.body;
+    element.classList.toggle("dark-mode")
 }
 
-function myFunction(){
+function myFunction() {
     alert("Please complete form!");
-    result = Submit(question)
+ const username = document.querySelector("#Uname");
+ const Title = document.querySelector("#title");
+ const content = document.querySelector("#content");
+    localStorage.setItem("Username" , username);
+    localStorage.setItem("Title" , Title);
+    localStorage.setItem("Content" , content);
+
+    window.location.href = "blogs.html"
 }
 
+function getblog(){
+    localStorage.getItem("Username")
+    console.log(localStorage.getItem("Username"))
 
-localStorage.setItem("Username", "RockyRoad");
-localStorage.setItem("Title" , "Blog Title");
-localStorage.setItem("Content" , "Blog 1");
+    localStorage.getItem("Title")
+    console.log(localStorage.getItem("Title"))
+
+    localStorage.getItem("Content")
+    console.log(localStorage.getItem("Content"))
+
+
+}
+
